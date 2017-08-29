@@ -1,0 +1,749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51F6F4E9AA093A9F85A57660 /* libPods-ASDisplayKitLayoutSpecDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8390A1926AED5CB54372316 /* libPods-ASDisplayKitLayoutSpecDemo.a */; };
+		F7392A271F53F922007E86FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A261F53F922007E86FA /* main.m */; };
+		F7392A2A1F53F922007E86FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A291F53F922007E86FA /* AppDelegate.m */; };
+		F7392A2D1F53F922007E86FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A2C1F53F922007E86FA /* ViewController.m */; };
+		F7392A301F53F922007E86FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7392A2E1F53F922007E86FA /* Main.storyboard */; };
+		F7392A321F53F922007E86FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7392A311F53F922007E86FA /* Assets.xcassets */; };
+		F7392A351F53F922007E86FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7392A331F53F922007E86FA /* LaunchScreen.storyboard */; };
+		F7392A5D1F53FB20007E86FA /* ASLayoutDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A5C1F53FB20007E86FA /* ASLayoutDemoListViewController.m */; };
+		F7392A751F53FEA1007E86FA /* TFDefaultTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A601F53FEA1007E86FA /* TFDefaultTableViewItem.m */; };
+		F7392A761F53FEA1007E86FA /* TFDefaultTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A621F53FEA1007E86FA /* TFDefaultTableViewItemCell.m */; };
+		F7392A771F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A641F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m */; };
+		F7392A781F53FEA1007E86FA /* TFTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A661F53FEA1007E86FA /* TFTableViewItem.m */; };
+		F7392A791F53FEA1007E86FA /* TFTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A681F53FEA1007E86FA /* TFTableViewItemCell.m */; };
+		F7392A7A1F53FEA1007E86FA /* TFTableViewItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A6A1F53FEA1007E86FA /* TFTableViewItemCellNode.m */; };
+		F7392A7B1F53FEA1007E86FA /* TFTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A6C1F53FEA1007E86FA /* TFTableViewManager.m */; };
+		F7392A7C1F53FEA1007E86FA /* TFTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A6F1F53FEA1007E86FA /* TFTableViewSection.m */; };
+		F7392A7D1F53FEA1007E86FA /* TFTableViewManager.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F7392A701F53FEA1007E86FA /* TFTableViewManager.xcconfig */; };
+		F7392A7E1F53FEA1007E86FA /* TFTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A711F53FEA1007E86FA /* TFTableViewManager-dummy.m */; };
+		F7392A8D1F540151007E86FA /* ASBackgroundLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A821F540151007E86FA /* ASBackgroundLayoutSpecViewController.m */; };
+		F7392A8E1F540151007E86FA /* ASInsetLayoutSepcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A841F540151007E86FA /* ASInsetLayoutSepcViewController.m */; };
+		F7392A8F1F540151007E86FA /* ASOverlayLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A861F540151007E86FA /* ASOverlayLayoutSpecViewController.m */; };
+		F7392A901F540151007E86FA /* ASRatioLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A881F540151007E86FA /* ASRatioLayoutSpecViewController.m */; };
+		F7392A911F540151007E86FA /* ASRelativeLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A8A1F540151007E86FA /* ASRelativeLayoutSpecViewController.m */; };
+		F7392A921F540151007E86FA /* ASStackLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A8C1F540151007E86FA /* ASStackLayoutSpecViewController.m */; };
+		F7392A9A1F540173007E86FA /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A951F540173007E86FA /* Demo1ViewController.m */; };
+		F7392A9B1F540173007E86FA /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A971F540173007E86FA /* Demo2ViewController.m */; };
+		F7392A9C1F540173007E86FA /* SocialAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A991F540173007E86FA /* SocialAppViewController.m */; };
+		F7392A9F1F5401B6007E86FA /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A9E1F5401B6007E86FA /* Post.m */; };
+		F7392AA51F5401E7007E86FA /* CommentsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AA21F5401E7007E86FA /* CommentsNode.m */; };
+		F7392AA61F5401E7007E86FA /* LikesNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AA41F5401E7007E86FA /* LikesNode.m */; };
+		F7392ABD1F54021A007E86FA /* ASDemoLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AA81F54021A007E86FA /* ASDemoLayoutItem.m */; };
+		F7392ABE1F54021A007E86FA /* ASDemoListItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AAA1F54021A007E86FA /* ASDemoListItem.m */; };
+		F7392ABF1F54021A007E86FA /* ASDemoBackgroundLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AAC1F54021A007E86FA /* ASDemoBackgroundLayoutItem.m */; };
+		F7392AC01F54021A007E86FA /* ASDemoInsetLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AAE1F54021A007E86FA /* ASDemoInsetLayoutItem.m */; };
+		F7392AC11F54021A007E86FA /* ASDemoOverlayLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AB01F54021A007E86FA /* ASDemoOverlayLayoutItem.m */; };
+		F7392AC21F54021A007E86FA /* ASDemoRatioLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AB21F54021A007E86FA /* ASDemoRatioLayoutItem.m */; };
+		F7392AC31F54021A007E86FA /* ASDemoRelativeLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AB41F54021A007E86FA /* ASDemoRelativeLayoutItem.m */; };
+		F7392AC41F54021A007E86FA /* ASDemoStackLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AB61F54021A007E86FA /* ASDemoStackLayoutItem.m */; };
+		F7392AC51F54021A007E86FA /* Demo1Item.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AB81F54021A007E86FA /* Demo1Item.m */; };
+		F7392AC61F54021A007E86FA /* Demo2Item.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392ABA1F54021A007E86FA /* Demo2Item.m */; };
+		F7392AC71F54021A007E86FA /* SocialAppItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392ABC1F54021A007E86FA /* SocialAppItem.m */; };
+		F7392AD41F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AC91F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.m */; };
+		F7392AD51F540236007E86FA /* ASDemoInsetLayoutItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392ACB1F540236007E86FA /* ASDemoInsetLayoutItemCellNode.m */; };
+		F7392AD61F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392ACD1F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.m */; };
+		F7392AD71F540236007E86FA /* ASDemoRatioLayoutItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392ACF1F540236007E86FA /* ASDemoRatioLayoutItemCellNode.m */; };
+		F7392AD81F540236007E86FA /* ASDemoRelativeLayoutItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AD11F540236007E86FA /* ASDemoRelativeLayoutItemCellNode.m */; };
+		F7392AD91F540236007E86FA /* ASDemoStackLayoutItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AD31F540236007E86FA /* ASDemoStackLayoutItemCellNode.m */; };
+		F7392ADC1F540246007E86FA /* Demo2ItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392ADB1F540246007E86FA /* Demo2ItemCellNode.m */; };
+		F7392AE11F540251007E86FA /* Demo1ItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392ADE1F540251007E86FA /* Demo1ItemCellNode.m */; };
+		F7392AE21F540251007E86FA /* SocialAppItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AE01F540251007E86FA /* SocialAppItemCellNode.m */; };
+		F7392AE91F540315007E86FA /* ASDemoLayoutItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AE81F540315007E86FA /* ASDemoLayoutItemCellNode.m */; };
+		F7392AEC1F5412BA007E86FA /* ASDemoListItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AEB1F5412BA007E86FA /* ASDemoListItemCellNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E20274FC1C38F2DE82E42FF /* Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDisplayKitLayoutSpecDemo/Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		7D1F81A3F82A6254105B5E42 /* Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDisplayKitLayoutSpecDemo/Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A8390A1926AED5CB54372316 /* libPods-ASDisplayKitLayoutSpecDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASDisplayKitLayoutSpecDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7392A221F53F922007E86FA /* ASDisplayKitLayoutSpecDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASDisplayKitLayoutSpecDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7392A261F53F922007E86FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F7392A281F53F922007E86FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F7392A291F53F922007E86FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F7392A2B1F53F922007E86FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F7392A2C1F53F922007E86FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F7392A2F1F53F922007E86FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7392A311F53F922007E86FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7392A341F53F922007E86FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7392A361F53F922007E86FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7392A5B1F53FB20007E86FA /* ASLayoutDemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLayoutDemoListViewController.h; sourceTree = "<group>"; };
+		F7392A5C1F53FB20007E86FA /* ASLayoutDemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLayoutDemoListViewController.m; sourceTree = "<group>"; };
+		F7392A5E1F53FB49007E86FA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F7392A5F1F53FEA1007E86FA /* TFDefaultTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFDefaultTableViewItem.h; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItem.h; sourceTree = "<group>"; };
+		F7392A601F53FEA1007E86FA /* TFDefaultTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFDefaultTableViewItem.m; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItem.m; sourceTree = "<group>"; };
+		F7392A611F53FEA1007E86FA /* TFDefaultTableViewItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFDefaultTableViewItemCell.h; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCell.h; sourceTree = "<group>"; };
+		F7392A621F53FEA1007E86FA /* TFDefaultTableViewItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFDefaultTableViewItemCell.m; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCell.m; sourceTree = "<group>"; };
+		F7392A631F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFDefaultTableViewItemCellNode.h; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCellNode.h; sourceTree = "<group>"; };
+		F7392A641F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFDefaultTableViewItemCellNode.m; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCellNode.m; sourceTree = "<group>"; };
+		F7392A651F53FEA1007E86FA /* TFTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewItem.h; path = TFTableViewManager/TFTableViewItem.h; sourceTree = "<group>"; };
+		F7392A661F53FEA1007E86FA /* TFTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewItem.m; path = TFTableViewManager/TFTableViewItem.m; sourceTree = "<group>"; };
+		F7392A671F53FEA1007E86FA /* TFTableViewItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewItemCell.h; path = TFTableViewManager/UITableViewModule/TFTableViewItemCell.h; sourceTree = "<group>"; };
+		F7392A681F53FEA1007E86FA /* TFTableViewItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewItemCell.m; path = TFTableViewManager/UITableViewModule/TFTableViewItemCell.m; sourceTree = "<group>"; };
+		F7392A691F53FEA1007E86FA /* TFTableViewItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewItemCellNode.h; path = TFTableViewManager/ASTableViewModule/TFTableViewItemCellNode.h; sourceTree = "<group>"; };
+		F7392A6A1F53FEA1007E86FA /* TFTableViewItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewItemCellNode.m; path = TFTableViewManager/ASTableViewModule/TFTableViewItemCellNode.m; sourceTree = "<group>"; };
+		F7392A6B1F53FEA1007E86FA /* TFTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewManager.h; path = TFTableViewManager/TFTableViewManager.h; sourceTree = "<group>"; };
+		F7392A6C1F53FEA1007E86FA /* TFTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewManager.m; path = TFTableViewManager/TFTableViewManager.m; sourceTree = "<group>"; };
+		F7392A6D1F53FEA1007E86FA /* TFTableViewManagerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewManagerKit.h; path = TFTableViewManager/TFTableViewManagerKit.h; sourceTree = "<group>"; };
+		F7392A6E1F53FEA1007E86FA /* TFTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewSection.h; path = TFTableViewManager/TFTableViewSection.h; sourceTree = "<group>"; };
+		F7392A6F1F53FEA1007E86FA /* TFTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewSection.m; path = TFTableViewManager/TFTableViewSection.m; sourceTree = "<group>"; };
+		F7392A701F53FEA1007E86FA /* TFTableViewManager.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = TFTableViewManager.xcconfig; sourceTree = "<group>"; };
+		F7392A711F53FEA1007E86FA /* TFTableViewManager-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TFTableViewManager-dummy.m"; sourceTree = "<group>"; };
+		F7392A721F53FEA1007E86FA /* TFTableViewManager-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TFTableViewManager-prefix.pch"; sourceTree = "<group>"; };
+		F7392A811F540151007E86FA /* ASBackgroundLayoutSpecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBackgroundLayoutSpecViewController.h; sourceTree = "<group>"; };
+		F7392A821F540151007E86FA /* ASBackgroundLayoutSpecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBackgroundLayoutSpecViewController.m; sourceTree = "<group>"; };
+		F7392A831F540151007E86FA /* ASInsetLayoutSepcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInsetLayoutSepcViewController.h; sourceTree = "<group>"; };
+		F7392A841F540151007E86FA /* ASInsetLayoutSepcViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASInsetLayoutSepcViewController.m; sourceTree = "<group>"; };
+		F7392A851F540151007E86FA /* ASOverlayLayoutSpecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASOverlayLayoutSpecViewController.h; sourceTree = "<group>"; };
+		F7392A861F540151007E86FA /* ASOverlayLayoutSpecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASOverlayLayoutSpecViewController.m; sourceTree = "<group>"; };
+		F7392A871F540151007E86FA /* ASRatioLayoutSpecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRatioLayoutSpecViewController.h; sourceTree = "<group>"; };
+		F7392A881F540151007E86FA /* ASRatioLayoutSpecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRatioLayoutSpecViewController.m; sourceTree = "<group>"; };
+		F7392A891F540151007E86FA /* ASRelativeLayoutSpecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASRelativeLayoutSpecViewController.h; sourceTree = "<group>"; };
+		F7392A8A1F540151007E86FA /* ASRelativeLayoutSpecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASRelativeLayoutSpecViewController.m; sourceTree = "<group>"; };
+		F7392A8B1F540151007E86FA /* ASStackLayoutSpecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASStackLayoutSpecViewController.h; sourceTree = "<group>"; };
+		F7392A8C1F540151007E86FA /* ASStackLayoutSpecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASStackLayoutSpecViewController.m; sourceTree = "<group>"; };
+		F7392A941F540173007E86FA /* Demo1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ViewController.h; sourceTree = "<group>"; };
+		F7392A951F540173007E86FA /* Demo1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ViewController.m; sourceTree = "<group>"; };
+		F7392A961F540173007E86FA /* Demo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ViewController.h; sourceTree = "<group>"; };
+		F7392A971F540173007E86FA /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
+		F7392A981F540173007E86FA /* SocialAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialAppViewController.h; sourceTree = "<group>"; };
+		F7392A991F540173007E86FA /* SocialAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialAppViewController.m; sourceTree = "<group>"; };
+		F7392A9D1F5401B6007E86FA /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = ../Post.h; sourceTree = "<group>"; };
+		F7392A9E1F5401B6007E86FA /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = ../Post.m; sourceTree = "<group>"; };
+		F7392AA11F5401E7007E86FA /* CommentsNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsNode.h; sourceTree = "<group>"; };
+		F7392AA21F5401E7007E86FA /* CommentsNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsNode.m; sourceTree = "<group>"; };
+		F7392AA31F5401E7007E86FA /* LikesNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikesNode.h; sourceTree = "<group>"; };
+		F7392AA41F5401E7007E86FA /* LikesNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LikesNode.m; sourceTree = "<group>"; };
+		F7392AA71F54021A007E86FA /* ASDemoLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoLayoutItem.h; sourceTree = "<group>"; };
+		F7392AA81F54021A007E86FA /* ASDemoLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoLayoutItem.m; sourceTree = "<group>"; };
+		F7392AA91F54021A007E86FA /* ASDemoListItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoListItem.h; sourceTree = "<group>"; };
+		F7392AAA1F54021A007E86FA /* ASDemoListItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoListItem.m; sourceTree = "<group>"; };
+		F7392AAB1F54021A007E86FA /* ASDemoBackgroundLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoBackgroundLayoutItem.h; sourceTree = "<group>"; };
+		F7392AAC1F54021A007E86FA /* ASDemoBackgroundLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoBackgroundLayoutItem.m; sourceTree = "<group>"; };
+		F7392AAD1F54021A007E86FA /* ASDemoInsetLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoInsetLayoutItem.h; sourceTree = "<group>"; };
+		F7392AAE1F54021A007E86FA /* ASDemoInsetLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoInsetLayoutItem.m; sourceTree = "<group>"; };
+		F7392AAF1F54021A007E86FA /* ASDemoOverlayLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoOverlayLayoutItem.h; sourceTree = "<group>"; };
+		F7392AB01F54021A007E86FA /* ASDemoOverlayLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoOverlayLayoutItem.m; sourceTree = "<group>"; };
+		F7392AB11F54021A007E86FA /* ASDemoRatioLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoRatioLayoutItem.h; sourceTree = "<group>"; };
+		F7392AB21F54021A007E86FA /* ASDemoRatioLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoRatioLayoutItem.m; sourceTree = "<group>"; };
+		F7392AB31F54021A007E86FA /* ASDemoRelativeLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoRelativeLayoutItem.h; sourceTree = "<group>"; };
+		F7392AB41F54021A007E86FA /* ASDemoRelativeLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoRelativeLayoutItem.m; sourceTree = "<group>"; };
+		F7392AB51F54021A007E86FA /* ASDemoStackLayoutItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoStackLayoutItem.h; sourceTree = "<group>"; };
+		F7392AB61F54021A007E86FA /* ASDemoStackLayoutItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoStackLayoutItem.m; sourceTree = "<group>"; };
+		F7392AB71F54021A007E86FA /* Demo1Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1Item.h; sourceTree = "<group>"; };
+		F7392AB81F54021A007E86FA /* Demo1Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1Item.m; sourceTree = "<group>"; };
+		F7392AB91F54021A007E86FA /* Demo2Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2Item.h; sourceTree = "<group>"; };
+		F7392ABA1F54021A007E86FA /* Demo2Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2Item.m; sourceTree = "<group>"; };
+		F7392ABB1F54021A007E86FA /* SocialAppItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialAppItem.h; sourceTree = "<group>"; };
+		F7392ABC1F54021A007E86FA /* SocialAppItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialAppItem.m; sourceTree = "<group>"; };
+		F7392AC81F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoBackgroundLayoutItemCellNode.h; sourceTree = "<group>"; };
+		F7392AC91F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoBackgroundLayoutItemCellNode.m; sourceTree = "<group>"; };
+		F7392ACA1F540236007E86FA /* ASDemoInsetLayoutItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoInsetLayoutItemCellNode.h; sourceTree = "<group>"; };
+		F7392ACB1F540236007E86FA /* ASDemoInsetLayoutItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoInsetLayoutItemCellNode.m; sourceTree = "<group>"; };
+		F7392ACC1F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoOverlayLayoutItemCellNode.h; sourceTree = "<group>"; };
+		F7392ACD1F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoOverlayLayoutItemCellNode.m; sourceTree = "<group>"; };
+		F7392ACE1F540236007E86FA /* ASDemoRatioLayoutItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoRatioLayoutItemCellNode.h; sourceTree = "<group>"; };
+		F7392ACF1F540236007E86FA /* ASDemoRatioLayoutItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoRatioLayoutItemCellNode.m; sourceTree = "<group>"; };
+		F7392AD01F540236007E86FA /* ASDemoRelativeLayoutItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoRelativeLayoutItemCellNode.h; sourceTree = "<group>"; };
+		F7392AD11F540236007E86FA /* ASDemoRelativeLayoutItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoRelativeLayoutItemCellNode.m; sourceTree = "<group>"; };
+		F7392AD21F540236007E86FA /* ASDemoStackLayoutItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoStackLayoutItemCellNode.h; sourceTree = "<group>"; };
+		F7392AD31F540236007E86FA /* ASDemoStackLayoutItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoStackLayoutItemCellNode.m; sourceTree = "<group>"; };
+		F7392ADA1F540246007E86FA /* Demo2ItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo2ItemCellNode.h; sourceTree = "<group>"; };
+		F7392ADB1F540246007E86FA /* Demo2ItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ItemCellNode.m; sourceTree = "<group>"; };
+		F7392ADD1F540251007E86FA /* Demo1ItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Demo1ItemCellNode.h; sourceTree = "<group>"; };
+		F7392ADE1F540251007E86FA /* Demo1ItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo1ItemCellNode.m; sourceTree = "<group>"; };
+		F7392ADF1F540251007E86FA /* SocialAppItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialAppItemCellNode.h; sourceTree = "<group>"; };
+		F7392AE01F540251007E86FA /* SocialAppItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialAppItemCellNode.m; sourceTree = "<group>"; };
+		F7392AE71F540315007E86FA /* ASDemoLayoutItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoLayoutItemCellNode.h; sourceTree = "<group>"; };
+		F7392AE81F540315007E86FA /* ASDemoLayoutItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoLayoutItemCellNode.m; sourceTree = "<group>"; };
+		F7392AEA1F5412BA007E86FA /* ASDemoListItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDemoListItemCellNode.h; sourceTree = "<group>"; };
+		F7392AEB1F5412BA007E86FA /* ASDemoListItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDemoListItemCellNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7392A1F1F53F922007E86FA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F6F4E9AA093A9F85A57660 /* libPods-ASDisplayKitLayoutSpecDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		53FB5E528F74145F6D82D397 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0E20274FC1C38F2DE82E42FF /* Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig */,
+				7D1F81A3F82A6254105B5E42 /* Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		96834E353DFA38F67F89BF45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A8390A1926AED5CB54372316 /* libPods-ASDisplayKitLayoutSpecDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7392A191F53F922007E86FA = {
+			isa = PBXGroup;
+			children = (
+				F7392A241F53F922007E86FA /* ASDisplayKitLayoutSpecDemo */,
+				F7392A231F53F922007E86FA /* Products */,
+				53FB5E528F74145F6D82D397 /* Pods */,
+				96834E353DFA38F67F89BF45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7392A231F53F922007E86FA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A221F53F922007E86FA /* ASDisplayKitLayoutSpecDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7392A241F53F922007E86FA /* ASDisplayKitLayoutSpecDemo */ = {
+			isa = PBXGroup;
+			children = (
+				F7392AA01F5401CD007E86FA /* View */,
+				F7392A741F53FEA1007E86FA /* TFTableViewManager */,
+				F7392A5A1F53FB0B007E86FA /* ViewController */,
+				F7392A591F53FA3E007E86FA /* Model */,
+				F7392A581F53FA23007E86FA /* Tableview */,
+				F7392A281F53F922007E86FA /* AppDelegate.h */,
+				F7392A291F53F922007E86FA /* AppDelegate.m */,
+				F7392A2B1F53F922007E86FA /* ViewController.h */,
+				F7392A2C1F53F922007E86FA /* ViewController.m */,
+				F7392A2E1F53F922007E86FA /* Main.storyboard */,
+				F7392A311F53F922007E86FA /* Assets.xcassets */,
+				F7392A331F53F922007E86FA /* LaunchScreen.storyboard */,
+				F7392A361F53F922007E86FA /* Info.plist */,
+				F7392A251F53F922007E86FA /* Supporting Files */,
+			);
+			name = ASDisplayKitLayoutSpecDemo;
+			path = ASDISPlayKitLayoutSpecDemo;
+			sourceTree = "<group>";
+		};
+		F7392A251F53F922007E86FA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A261F53F922007E86FA /* main.m */,
+				F7392A5E1F53FB49007E86FA /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F7392A581F53FA23007E86FA /* Tableview */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A801F53FF43007E86FA /* Cell */,
+				F7392A7F1F53FF32007E86FA /* ViewModel */,
+			);
+			path = Tableview;
+			sourceTree = "<group>";
+		};
+		F7392A591F53FA3E007E86FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A9D1F5401B6007E86FA /* Post.h */,
+				F7392A9E1F5401B6007E86FA /* Post.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F7392A5A1F53FB0B007E86FA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A931F54015D007E86FA /* Office Demo */,
+				F7392A5B1F53FB20007E86FA /* ASLayoutDemoListViewController.h */,
+				F7392A5C1F53FB20007E86FA /* ASLayoutDemoListViewController.m */,
+				F7392A811F540151007E86FA /* ASBackgroundLayoutSpecViewController.h */,
+				F7392A821F540151007E86FA /* ASBackgroundLayoutSpecViewController.m */,
+				F7392A831F540151007E86FA /* ASInsetLayoutSepcViewController.h */,
+				F7392A841F540151007E86FA /* ASInsetLayoutSepcViewController.m */,
+				F7392A851F540151007E86FA /* ASOverlayLayoutSpecViewController.h */,
+				F7392A861F540151007E86FA /* ASOverlayLayoutSpecViewController.m */,
+				F7392A871F540151007E86FA /* ASRatioLayoutSpecViewController.h */,
+				F7392A881F540151007E86FA /* ASRatioLayoutSpecViewController.m */,
+				F7392A891F540151007E86FA /* ASRelativeLayoutSpecViewController.h */,
+				F7392A8A1F540151007E86FA /* ASRelativeLayoutSpecViewController.m */,
+				F7392A8B1F540151007E86FA /* ASStackLayoutSpecViewController.h */,
+				F7392A8C1F540151007E86FA /* ASStackLayoutSpecViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		F7392A731F53FEA1007E86FA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A701F53FEA1007E86FA /* TFTableViewManager.xcconfig */,
+				F7392A711F53FEA1007E86FA /* TFTableViewManager-dummy.m */,
+				F7392A721F53FEA1007E86FA /* TFTableViewManager-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TFTableViewManager";
+			sourceTree = "<group>";
+		};
+		F7392A741F53FEA1007E86FA /* TFTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A5F1F53FEA1007E86FA /* TFDefaultTableViewItem.h */,
+				F7392A601F53FEA1007E86FA /* TFDefaultTableViewItem.m */,
+				F7392A611F53FEA1007E86FA /* TFDefaultTableViewItemCell.h */,
+				F7392A621F53FEA1007E86FA /* TFDefaultTableViewItemCell.m */,
+				F7392A631F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.h */,
+				F7392A641F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m */,
+				F7392A651F53FEA1007E86FA /* TFTableViewItem.h */,
+				F7392A661F53FEA1007E86FA /* TFTableViewItem.m */,
+				F7392A671F53FEA1007E86FA /* TFTableViewItemCell.h */,
+				F7392A681F53FEA1007E86FA /* TFTableViewItemCell.m */,
+				F7392A691F53FEA1007E86FA /* TFTableViewItemCellNode.h */,
+				F7392A6A1F53FEA1007E86FA /* TFTableViewItemCellNode.m */,
+				F7392A6B1F53FEA1007E86FA /* TFTableViewManager.h */,
+				F7392A6C1F53FEA1007E86FA /* TFTableViewManager.m */,
+				F7392A6D1F53FEA1007E86FA /* TFTableViewManagerKit.h */,
+				F7392A6E1F53FEA1007E86FA /* TFTableViewSection.h */,
+				F7392A6F1F53FEA1007E86FA /* TFTableViewSection.m */,
+				F7392A731F53FEA1007E86FA /* Support Files */,
+			);
+			name = TFTableViewManager;
+			path = ../../../../TimeFace/TimeFaceDemoProject/Pods/TFTableViewManager;
+			sourceTree = "<group>";
+		};
+		F7392A7F1F53FF32007E86FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F7392AA71F54021A007E86FA /* ASDemoLayoutItem.h */,
+				F7392AA81F54021A007E86FA /* ASDemoLayoutItem.m */,
+				F7392AA91F54021A007E86FA /* ASDemoListItem.h */,
+				F7392AAA1F54021A007E86FA /* ASDemoListItem.m */,
+				F7392AAB1F54021A007E86FA /* ASDemoBackgroundLayoutItem.h */,
+				F7392AAC1F54021A007E86FA /* ASDemoBackgroundLayoutItem.m */,
+				F7392AAD1F54021A007E86FA /* ASDemoInsetLayoutItem.h */,
+				F7392AAE1F54021A007E86FA /* ASDemoInsetLayoutItem.m */,
+				F7392AAF1F54021A007E86FA /* ASDemoOverlayLayoutItem.h */,
+				F7392AB01F54021A007E86FA /* ASDemoOverlayLayoutItem.m */,
+				F7392AB11F54021A007E86FA /* ASDemoRatioLayoutItem.h */,
+				F7392AB21F54021A007E86FA /* ASDemoRatioLayoutItem.m */,
+				F7392AB31F54021A007E86FA /* ASDemoRelativeLayoutItem.h */,
+				F7392AB41F54021A007E86FA /* ASDemoRelativeLayoutItem.m */,
+				F7392AB51F54021A007E86FA /* ASDemoStackLayoutItem.h */,
+				F7392AB61F54021A007E86FA /* ASDemoStackLayoutItem.m */,
+				F7392AB71F54021A007E86FA /* Demo1Item.h */,
+				F7392AB81F54021A007E86FA /* Demo1Item.m */,
+				F7392AB91F54021A007E86FA /* Demo2Item.h */,
+				F7392ABA1F54021A007E86FA /* Demo2Item.m */,
+				F7392ABB1F54021A007E86FA /* SocialAppItem.h */,
+				F7392ABC1F54021A007E86FA /* SocialAppItem.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		F7392A801F53FF43007E86FA /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				F7392AEA1F5412BA007E86FA /* ASDemoListItemCellNode.h */,
+				F7392AEB1F5412BA007E86FA /* ASDemoListItemCellNode.m */,
+				F7392AE71F540315007E86FA /* ASDemoLayoutItemCellNode.h */,
+				F7392AE81F540315007E86FA /* ASDemoLayoutItemCellNode.m */,
+				F7392AC81F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.h */,
+				F7392AC91F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.m */,
+				F7392ACA1F540236007E86FA /* ASDemoInsetLayoutItemCellNode.h */,
+				F7392ACB1F540236007E86FA /* ASDemoInsetLayoutItemCellNode.m */,
+				F7392ACC1F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.h */,
+				F7392ACD1F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.m */,
+				F7392ACE1F540236007E86FA /* ASDemoRatioLayoutItemCellNode.h */,
+				F7392ACF1F540236007E86FA /* ASDemoRatioLayoutItemCellNode.m */,
+				F7392AD01F540236007E86FA /* ASDemoRelativeLayoutItemCellNode.h */,
+				F7392AD11F540236007E86FA /* ASDemoRelativeLayoutItemCellNode.m */,
+				F7392AD21F540236007E86FA /* ASDemoStackLayoutItemCellNode.h */,
+				F7392AD31F540236007E86FA /* ASDemoStackLayoutItemCellNode.m */,
+				F7392ADA1F540246007E86FA /* Demo2ItemCellNode.h */,
+				F7392ADB1F540246007E86FA /* Demo2ItemCellNode.m */,
+				F7392ADD1F540251007E86FA /* Demo1ItemCellNode.h */,
+				F7392ADE1F540251007E86FA /* Demo1ItemCellNode.m */,
+				F7392ADF1F540251007E86FA /* SocialAppItemCellNode.h */,
+				F7392AE01F540251007E86FA /* SocialAppItemCellNode.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F7392A931F54015D007E86FA /* Office Demo */ = {
+			isa = PBXGroup;
+			children = (
+				F7392A941F540173007E86FA /* Demo1ViewController.h */,
+				F7392A951F540173007E86FA /* Demo1ViewController.m */,
+				F7392A961F540173007E86FA /* Demo2ViewController.h */,
+				F7392A971F540173007E86FA /* Demo2ViewController.m */,
+				F7392A981F540173007E86FA /* SocialAppViewController.h */,
+				F7392A991F540173007E86FA /* SocialAppViewController.m */,
+			);
+			path = "Office Demo";
+			sourceTree = "<group>";
+		};
+		F7392AA01F5401CD007E86FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F7392AA11F5401E7007E86FA /* CommentsNode.h */,
+				F7392AA21F5401E7007E86FA /* CommentsNode.m */,
+				F7392AA31F5401E7007E86FA /* LikesNode.h */,
+				F7392AA41F5401E7007E86FA /* LikesNode.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7392A211F53F922007E86FA /* ASDisplayKitLayoutSpecDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7392A4F1F53F923007E86FA /* Build configuration list for PBXNativeTarget "ASDisplayKitLayoutSpecDemo" */;
+			buildPhases = (
+				DC3F7EFAD8E0DC38BC75F62B /* [CP] Check Pods Manifest.lock */,
+				F7392A1E1F53F922007E86FA /* Sources */,
+				F7392A1F1F53F922007E86FA /* Frameworks */,
+				F7392A201F53F922007E86FA /* Resources */,
+				A6621BBDB4E16848355E7200 /* [CP] Embed Pods Frameworks */,
+				99FFEF4FFF9E39DFF4448379 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASDisplayKitLayoutSpecDemo;
+			productName = ASDISPlayKitLayoutSpecDemo;
+			productReference = F7392A221F53F922007E86FA /* ASDisplayKitLayoutSpecDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7392A1A1F53F922007E86FA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "童星";
+				TargetAttributes = {
+					F7392A211F53F922007E86FA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = W692395U5W;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F7392A1D1F53F922007E86FA /* Build configuration list for PBXProject "ASDisplayKitLayoutSpecDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7392A191F53F922007E86FA;
+			productRefGroup = F7392A231F53F922007E86FA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7392A211F53F922007E86FA /* ASDisplayKitLayoutSpecDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7392A201F53F922007E86FA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7392A351F53F922007E86FA /* LaunchScreen.storyboard in Resources */,
+				F7392A321F53F922007E86FA /* Assets.xcassets in Resources */,
+				F7392A7D1F53FEA1007E86FA /* TFTableViewManager.xcconfig in Resources */,
+				F7392A301F53F922007E86FA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		99FFEF4FFF9E39DFF4448379 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDisplayKitLayoutSpecDemo/Pods-ASDisplayKitLayoutSpecDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6621BBDB4E16848355E7200 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASDisplayKitLayoutSpecDemo/Pods-ASDisplayKitLayoutSpecDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC3F7EFAD8E0DC38BC75F62B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ASDisplayKitLayoutSpecDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7392A1E1F53F922007E86FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7392AC21F54021A007E86FA /* ASDemoRatioLayoutItem.m in Sources */,
+				F7392A7A1F53FEA1007E86FA /* TFTableViewItemCellNode.m in Sources */,
+				F7392A7E1F53FEA1007E86FA /* TFTableViewManager-dummy.m in Sources */,
+				F7392ADC1F540246007E86FA /* Demo2ItemCellNode.m in Sources */,
+				F7392AC61F54021A007E86FA /* Demo2Item.m in Sources */,
+				F7392A901F540151007E86FA /* ASRatioLayoutSpecViewController.m in Sources */,
+				F7392A7C1F53FEA1007E86FA /* TFTableViewSection.m in Sources */,
+				F7392AE91F540315007E86FA /* ASDemoLayoutItemCellNode.m in Sources */,
+				F7392A791F53FEA1007E86FA /* TFTableViewItemCell.m in Sources */,
+				F7392A781F53FEA1007E86FA /* TFTableViewItem.m in Sources */,
+				F7392A8D1F540151007E86FA /* ASBackgroundLayoutSpecViewController.m in Sources */,
+				F7392ABE1F54021A007E86FA /* ASDemoListItem.m in Sources */,
+				F7392AE21F540251007E86FA /* SocialAppItemCellNode.m in Sources */,
+				F7392A761F53FEA1007E86FA /* TFDefaultTableViewItemCell.m in Sources */,
+				F7392AC41F54021A007E86FA /* ASDemoStackLayoutItem.m in Sources */,
+				F7392A771F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m in Sources */,
+				F7392AD51F540236007E86FA /* ASDemoInsetLayoutItemCellNode.m in Sources */,
+				F7392AD91F540236007E86FA /* ASDemoStackLayoutItemCellNode.m in Sources */,
+				F7392AD61F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.m in Sources */,
+				F7392AE11F540251007E86FA /* Demo1ItemCellNode.m in Sources */,
+				F7392A9C1F540173007E86FA /* SocialAppViewController.m in Sources */,
+				F7392A2D1F53F922007E86FA /* ViewController.m in Sources */,
+				F7392ABD1F54021A007E86FA /* ASDemoLayoutItem.m in Sources */,
+				F7392AC51F54021A007E86FA /* Demo1Item.m in Sources */,
+				F7392A2A1F53F922007E86FA /* AppDelegate.m in Sources */,
+				F7392AC01F54021A007E86FA /* ASDemoInsetLayoutItem.m in Sources */,
+				F7392A911F540151007E86FA /* ASRelativeLayoutSpecViewController.m in Sources */,
+				F7392AA51F5401E7007E86FA /* CommentsNode.m in Sources */,
+				F7392A9B1F540173007E86FA /* Demo2ViewController.m in Sources */,
+				F7392ABF1F54021A007E86FA /* ASDemoBackgroundLayoutItem.m in Sources */,
+				F7392A5D1F53FB20007E86FA /* ASLayoutDemoListViewController.m in Sources */,
+				F7392A9F1F5401B6007E86FA /* Post.m in Sources */,
+				F7392AC71F54021A007E86FA /* SocialAppItem.m in Sources */,
+				F7392A7B1F53FEA1007E86FA /* TFTableViewManager.m in Sources */,
+				F7392AC31F54021A007E86FA /* ASDemoRelativeLayoutItem.m in Sources */,
+				F7392AD41F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.m in Sources */,
+				F7392A8F1F540151007E86FA /* ASOverlayLayoutSpecViewController.m in Sources */,
+				F7392A751F53FEA1007E86FA /* TFDefaultTableViewItem.m in Sources */,
+				F7392A921F540151007E86FA /* ASStackLayoutSpecViewController.m in Sources */,
+				F7392AA61F5401E7007E86FA /* LikesNode.m in Sources */,
+				F7392AC11F54021A007E86FA /* ASDemoOverlayLayoutItem.m in Sources */,
+				F7392A9A1F540173007E86FA /* Demo1ViewController.m in Sources */,
+				F7392AEC1F5412BA007E86FA /* ASDemoListItemCellNode.m in Sources */,
+				F7392AD71F540236007E86FA /* ASDemoRatioLayoutItemCellNode.m in Sources */,
+				F7392A271F53F922007E86FA /* main.m in Sources */,
+				F7392A8E1F540151007E86FA /* ASInsetLayoutSepcViewController.m in Sources */,
+				F7392AD81F540236007E86FA /* ASDemoRelativeLayoutItemCellNode.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7392A2E1F53F922007E86FA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7392A2F1F53F922007E86FA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7392A331F53F922007E86FA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7392A341F53F922007E86FA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7392A4D1F53F923007E86FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F7392A4E1F53F923007E86FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7392A501F53F923007E86FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E20274FC1C38F2DE82E42FF /* Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W692395U5W;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ASDisplayKitLayoutSpecDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ASDISPlayKitLayoutSpecDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongxing.ASDISPlayKitLayoutSpecDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F7392A511F53F923007E86FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D1F81A3F82A6254105B5E42 /* Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = W692395U5W;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ASDisplayKitLayoutSpecDemo/PrefixHeader.pch";
+				INFOPLIST_FILE = ASDISPlayKitLayoutSpecDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tongxing.ASDISPlayKitLayoutSpecDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7392A1D1F53F922007E86FA /* Build configuration list for PBXProject "ASDisplayKitLayoutSpecDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7392A4D1F53F923007E86FA /* Debug */,
+				F7392A4E1F53F923007E86FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7392A4F1F53F923007E86FA /* Build configuration list for PBXNativeTarget "ASDisplayKitLayoutSpecDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7392A501F53F923007E86FA /* Debug */,
+				F7392A511F53F923007E86FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F7392A1A1F53F922007E86FA /* Project object */;
+}
