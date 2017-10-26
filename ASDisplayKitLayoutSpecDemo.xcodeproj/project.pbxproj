@@ -8,23 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		51F6F4E9AA093A9F85A57660 /* libPods-ASDisplayKitLayoutSpecDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A8390A1926AED5CB54372316 /* libPods-ASDisplayKitLayoutSpecDemo.a */; };
+		F7300B801FA1D3CC001FDA83 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B7E1FA1D3BF001FDA83 /* Post.m */; };
+		F7300B961FA1D411001FDA83 /* TFTableViewItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B841FA1D3FA001FDA83 /* TFTableViewItemCellNode.m */; };
+		F7300B971FA1D411001FDA83 /* TFDefaultTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B871FA1D3FA001FDA83 /* TFDefaultTableViewItem.m */; };
+		F7300B981FA1D411001FDA83 /* TFDefaultTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B891FA1D3FA001FDA83 /* TFDefaultTableViewItemCell.m */; };
+		F7300B991FA1D411001FDA83 /* TFDefaultTableViewItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B8B1FA1D3FA001FDA83 /* TFDefaultTableViewItemCellNode.m */; };
+		F7300B9A1FA1D411001FDA83 /* TFTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B8D1FA1D3FA001FDA83 /* TFTableViewItem.m */; };
+		F7300B9B1FA1D411001FDA83 /* TFTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B8F1FA1D3FA001FDA83 /* TFTableViewManager.m */; };
+		F7300B9C1FA1D411001FDA83 /* TFTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B921FA1D3FA001FDA83 /* TFTableViewSection.m */; };
+		F7300B9D1FA1D411001FDA83 /* TFTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7300B951FA1D3FA001FDA83 /* TFTableViewItemCell.m */; };
+		F7300B9F1FA1D553001FDA83 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7300B9E1FA1D553001FDA83 /* Assets.xcassets */; };
 		F7392A271F53F922007E86FA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A261F53F922007E86FA /* main.m */; };
 		F7392A2A1F53F922007E86FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A291F53F922007E86FA /* AppDelegate.m */; };
 		F7392A2D1F53F922007E86FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A2C1F53F922007E86FA /* ViewController.m */; };
 		F7392A301F53F922007E86FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7392A2E1F53F922007E86FA /* Main.storyboard */; };
-		F7392A321F53F922007E86FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7392A311F53F922007E86FA /* Assets.xcassets */; };
 		F7392A351F53F922007E86FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7392A331F53F922007E86FA /* LaunchScreen.storyboard */; };
 		F7392A5D1F53FB20007E86FA /* ASLayoutDemoListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A5C1F53FB20007E86FA /* ASLayoutDemoListViewController.m */; };
-		F7392A751F53FEA1007E86FA /* TFDefaultTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A601F53FEA1007E86FA /* TFDefaultTableViewItem.m */; };
-		F7392A761F53FEA1007E86FA /* TFDefaultTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A621F53FEA1007E86FA /* TFDefaultTableViewItemCell.m */; };
-		F7392A771F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A641F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m */; };
-		F7392A781F53FEA1007E86FA /* TFTableViewItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A661F53FEA1007E86FA /* TFTableViewItem.m */; };
-		F7392A791F53FEA1007E86FA /* TFTableViewItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A681F53FEA1007E86FA /* TFTableViewItemCell.m */; };
-		F7392A7A1F53FEA1007E86FA /* TFTableViewItemCellNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A6A1F53FEA1007E86FA /* TFTableViewItemCellNode.m */; };
-		F7392A7B1F53FEA1007E86FA /* TFTableViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A6C1F53FEA1007E86FA /* TFTableViewManager.m */; };
-		F7392A7C1F53FEA1007E86FA /* TFTableViewSection.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A6F1F53FEA1007E86FA /* TFTableViewSection.m */; };
-		F7392A7D1F53FEA1007E86FA /* TFTableViewManager.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = F7392A701F53FEA1007E86FA /* TFTableViewManager.xcconfig */; };
-		F7392A7E1F53FEA1007E86FA /* TFTableViewManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A711F53FEA1007E86FA /* TFTableViewManager-dummy.m */; };
 		F7392A8D1F540151007E86FA /* ASBackgroundLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A821F540151007E86FA /* ASBackgroundLayoutSpecViewController.m */; };
 		F7392A8E1F540151007E86FA /* ASInsetLayoutSepcViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A841F540151007E86FA /* ASInsetLayoutSepcViewController.m */; };
 		F7392A8F1F540151007E86FA /* ASOverlayLayoutSpecViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A861F540151007E86FA /* ASOverlayLayoutSpecViewController.m */; };
@@ -34,7 +33,6 @@
 		F7392A9A1F540173007E86FA /* Demo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A951F540173007E86FA /* Demo1ViewController.m */; };
 		F7392A9B1F540173007E86FA /* Demo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A971F540173007E86FA /* Demo2ViewController.m */; };
 		F7392A9C1F540173007E86FA /* SocialAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A991F540173007E86FA /* SocialAppViewController.m */; };
-		F7392A9F1F5401B6007E86FA /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392A9E1F5401B6007E86FA /* Post.m */; };
 		F7392AA51F5401E7007E86FA /* CommentsNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AA21F5401E7007E86FA /* CommentsNode.m */; };
 		F7392AA61F5401E7007E86FA /* LikesNode.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AA41F5401E7007E86FA /* LikesNode.m */; };
 		F7392ABD1F54021A007E86FA /* ASDemoLayoutItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F7392AA81F54021A007E86FA /* ASDemoLayoutItem.m */; };
@@ -65,6 +63,26 @@
 		0E20274FC1C38F2DE82E42FF /* Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASDisplayKitLayoutSpecDemo/Pods-ASDisplayKitLayoutSpecDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		7D1F81A3F82A6254105B5E42 /* Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASDisplayKitLayoutSpecDemo/Pods-ASDisplayKitLayoutSpecDemo.release.xcconfig"; sourceTree = "<group>"; };
 		A8390A1926AED5CB54372316 /* libPods-ASDisplayKitLayoutSpecDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ASDisplayKitLayoutSpecDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7300B7E1FA1D3BF001FDA83 /* Post.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		F7300B7F1FA1D3BF001FDA83 /* Post.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		F7300B831FA1D3FA001FDA83 /* TFTableViewItemCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTableViewItemCellNode.h; sourceTree = "<group>"; };
+		F7300B841FA1D3FA001FDA83 /* TFTableViewItemCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTableViewItemCellNode.m; sourceTree = "<group>"; };
+		F7300B861FA1D3FA001FDA83 /* TFDefaultTableViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDefaultTableViewItem.h; sourceTree = "<group>"; };
+		F7300B871FA1D3FA001FDA83 /* TFDefaultTableViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDefaultTableViewItem.m; sourceTree = "<group>"; };
+		F7300B881FA1D3FA001FDA83 /* TFDefaultTableViewItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDefaultTableViewItemCell.h; sourceTree = "<group>"; };
+		F7300B891FA1D3FA001FDA83 /* TFDefaultTableViewItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDefaultTableViewItemCell.m; sourceTree = "<group>"; };
+		F7300B8A1FA1D3FA001FDA83 /* TFDefaultTableViewItemCellNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFDefaultTableViewItemCellNode.h; sourceTree = "<group>"; };
+		F7300B8B1FA1D3FA001FDA83 /* TFDefaultTableViewItemCellNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFDefaultTableViewItemCellNode.m; sourceTree = "<group>"; };
+		F7300B8C1FA1D3FA001FDA83 /* TFTableViewItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTableViewItem.h; sourceTree = "<group>"; };
+		F7300B8D1FA1D3FA001FDA83 /* TFTableViewItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTableViewItem.m; sourceTree = "<group>"; };
+		F7300B8E1FA1D3FA001FDA83 /* TFTableViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTableViewManager.h; sourceTree = "<group>"; };
+		F7300B8F1FA1D3FA001FDA83 /* TFTableViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTableViewManager.m; sourceTree = "<group>"; };
+		F7300B901FA1D3FA001FDA83 /* TFTableViewManagerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTableViewManagerKit.h; sourceTree = "<group>"; };
+		F7300B911FA1D3FA001FDA83 /* TFTableViewSection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTableViewSection.h; sourceTree = "<group>"; };
+		F7300B921FA1D3FA001FDA83 /* TFTableViewSection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTableViewSection.m; sourceTree = "<group>"; };
+		F7300B941FA1D3FA001FDA83 /* TFTableViewItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFTableViewItemCell.h; sourceTree = "<group>"; };
+		F7300B951FA1D3FA001FDA83 /* TFTableViewItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFTableViewItemCell.m; sourceTree = "<group>"; };
+		F7300B9E1FA1D553001FDA83 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ASDisplayKitLayoutSpecDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
 		F7392A221F53F922007E86FA /* ASDisplayKitLayoutSpecDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASDisplayKitLayoutSpecDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7392A261F53F922007E86FA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F7392A281F53F922007E86FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,32 +90,11 @@
 		F7392A2B1F53F922007E86FA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		F7392A2C1F53F922007E86FA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		F7392A2F1F53F922007E86FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F7392A311F53F922007E86FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F7392A341F53F922007E86FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F7392A361F53F922007E86FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7392A5B1F53FB20007E86FA /* ASLayoutDemoListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASLayoutDemoListViewController.h; sourceTree = "<group>"; };
 		F7392A5C1F53FB20007E86FA /* ASLayoutDemoListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASLayoutDemoListViewController.m; sourceTree = "<group>"; };
 		F7392A5E1F53FB49007E86FA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		F7392A5F1F53FEA1007E86FA /* TFDefaultTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFDefaultTableViewItem.h; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItem.h; sourceTree = "<group>"; };
-		F7392A601F53FEA1007E86FA /* TFDefaultTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFDefaultTableViewItem.m; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItem.m; sourceTree = "<group>"; };
-		F7392A611F53FEA1007E86FA /* TFDefaultTableViewItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFDefaultTableViewItemCell.h; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCell.h; sourceTree = "<group>"; };
-		F7392A621F53FEA1007E86FA /* TFDefaultTableViewItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFDefaultTableViewItemCell.m; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCell.m; sourceTree = "<group>"; };
-		F7392A631F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFDefaultTableViewItemCellNode.h; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCellNode.h; sourceTree = "<group>"; };
-		F7392A641F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFDefaultTableViewItemCellNode.m; path = TFTableViewManager/DefaultItem/TFDefaultTableViewItemCellNode.m; sourceTree = "<group>"; };
-		F7392A651F53FEA1007E86FA /* TFTableViewItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewItem.h; path = TFTableViewManager/TFTableViewItem.h; sourceTree = "<group>"; };
-		F7392A661F53FEA1007E86FA /* TFTableViewItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewItem.m; path = TFTableViewManager/TFTableViewItem.m; sourceTree = "<group>"; };
-		F7392A671F53FEA1007E86FA /* TFTableViewItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewItemCell.h; path = TFTableViewManager/UITableViewModule/TFTableViewItemCell.h; sourceTree = "<group>"; };
-		F7392A681F53FEA1007E86FA /* TFTableViewItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewItemCell.m; path = TFTableViewManager/UITableViewModule/TFTableViewItemCell.m; sourceTree = "<group>"; };
-		F7392A691F53FEA1007E86FA /* TFTableViewItemCellNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewItemCellNode.h; path = TFTableViewManager/ASTableViewModule/TFTableViewItemCellNode.h; sourceTree = "<group>"; };
-		F7392A6A1F53FEA1007E86FA /* TFTableViewItemCellNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewItemCellNode.m; path = TFTableViewManager/ASTableViewModule/TFTableViewItemCellNode.m; sourceTree = "<group>"; };
-		F7392A6B1F53FEA1007E86FA /* TFTableViewManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewManager.h; path = TFTableViewManager/TFTableViewManager.h; sourceTree = "<group>"; };
-		F7392A6C1F53FEA1007E86FA /* TFTableViewManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewManager.m; path = TFTableViewManager/TFTableViewManager.m; sourceTree = "<group>"; };
-		F7392A6D1F53FEA1007E86FA /* TFTableViewManagerKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewManagerKit.h; path = TFTableViewManager/TFTableViewManagerKit.h; sourceTree = "<group>"; };
-		F7392A6E1F53FEA1007E86FA /* TFTableViewSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TFTableViewSection.h; path = TFTableViewManager/TFTableViewSection.h; sourceTree = "<group>"; };
-		F7392A6F1F53FEA1007E86FA /* TFTableViewSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TFTableViewSection.m; path = TFTableViewManager/TFTableViewSection.m; sourceTree = "<group>"; };
-		F7392A701F53FEA1007E86FA /* TFTableViewManager.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = TFTableViewManager.xcconfig; sourceTree = "<group>"; };
-		F7392A711F53FEA1007E86FA /* TFTableViewManager-dummy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "TFTableViewManager-dummy.m"; sourceTree = "<group>"; };
-		F7392A721F53FEA1007E86FA /* TFTableViewManager-prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TFTableViewManager-prefix.pch"; sourceTree = "<group>"; };
 		F7392A811F540151007E86FA /* ASBackgroundLayoutSpecViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBackgroundLayoutSpecViewController.h; sourceTree = "<group>"; };
 		F7392A821F540151007E86FA /* ASBackgroundLayoutSpecViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBackgroundLayoutSpecViewController.m; sourceTree = "<group>"; };
 		F7392A831F540151007E86FA /* ASInsetLayoutSepcViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASInsetLayoutSepcViewController.h; sourceTree = "<group>"; };
@@ -116,8 +113,6 @@
 		F7392A971F540173007E86FA /* Demo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Demo2ViewController.m; sourceTree = "<group>"; };
 		F7392A981F540173007E86FA /* SocialAppViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocialAppViewController.h; sourceTree = "<group>"; };
 		F7392A991F540173007E86FA /* SocialAppViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocialAppViewController.m; sourceTree = "<group>"; };
-		F7392A9D1F5401B6007E86FA /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Post.h; path = ../Post.h; sourceTree = "<group>"; };
-		F7392A9E1F5401B6007E86FA /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Post.m; path = ../Post.m; sourceTree = "<group>"; };
 		F7392AA11F5401E7007E86FA /* CommentsNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommentsNode.h; sourceTree = "<group>"; };
 		F7392AA21F5401E7007E86FA /* CommentsNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommentsNode.m; sourceTree = "<group>"; };
 		F7392AA31F5401E7007E86FA /* LikesNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LikesNode.h; sourceTree = "<group>"; };
@@ -197,6 +192,64 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F7300B7D1FA1D3B2001FDA83 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F7300B7F1FA1D3BF001FDA83 /* Post.h */,
+				F7300B7E1FA1D3BF001FDA83 /* Post.m */,
+			);
+			name = Model;
+			path = ASDisplayKitLayoutSpecDemo/Model;
+			sourceTree = SOURCE_ROOT;
+		};
+		F7300B811FA1D3FA001FDA83 /* TFTableViewManager */ = {
+			isa = PBXGroup;
+			children = (
+				F7300B821FA1D3FA001FDA83 /* ASTableViewModule */,
+				F7300B851FA1D3FA001FDA83 /* DefaultItem */,
+				F7300B8C1FA1D3FA001FDA83 /* TFTableViewItem.h */,
+				F7300B8D1FA1D3FA001FDA83 /* TFTableViewItem.m */,
+				F7300B8E1FA1D3FA001FDA83 /* TFTableViewManager.h */,
+				F7300B8F1FA1D3FA001FDA83 /* TFTableViewManager.m */,
+				F7300B901FA1D3FA001FDA83 /* TFTableViewManagerKit.h */,
+				F7300B911FA1D3FA001FDA83 /* TFTableViewSection.h */,
+				F7300B921FA1D3FA001FDA83 /* TFTableViewSection.m */,
+				F7300B931FA1D3FA001FDA83 /* UITableViewModule */,
+			);
+			path = TFTableViewManager;
+			sourceTree = "<group>";
+		};
+		F7300B821FA1D3FA001FDA83 /* ASTableViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				F7300B831FA1D3FA001FDA83 /* TFTableViewItemCellNode.h */,
+				F7300B841FA1D3FA001FDA83 /* TFTableViewItemCellNode.m */,
+			);
+			path = ASTableViewModule;
+			sourceTree = "<group>";
+		};
+		F7300B851FA1D3FA001FDA83 /* DefaultItem */ = {
+			isa = PBXGroup;
+			children = (
+				F7300B861FA1D3FA001FDA83 /* TFDefaultTableViewItem.h */,
+				F7300B871FA1D3FA001FDA83 /* TFDefaultTableViewItem.m */,
+				F7300B881FA1D3FA001FDA83 /* TFDefaultTableViewItemCell.h */,
+				F7300B891FA1D3FA001FDA83 /* TFDefaultTableViewItemCell.m */,
+				F7300B8A1FA1D3FA001FDA83 /* TFDefaultTableViewItemCellNode.h */,
+				F7300B8B1FA1D3FA001FDA83 /* TFDefaultTableViewItemCellNode.m */,
+			);
+			path = DefaultItem;
+			sourceTree = "<group>";
+		};
+		F7300B931FA1D3FA001FDA83 /* UITableViewModule */ = {
+			isa = PBXGroup;
+			children = (
+				F7300B941FA1D3FA001FDA83 /* TFTableViewItemCell.h */,
+				F7300B951FA1D3FA001FDA83 /* TFTableViewItemCell.m */,
+			);
+			path = UITableViewModule;
+			sourceTree = "<group>";
+		};
 		F7392A191F53F922007E86FA = {
 			isa = PBXGroup;
 			children = (
@@ -218,19 +271,19 @@
 		F7392A241F53F922007E86FA /* ASDisplayKitLayoutSpecDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F7300B811FA1D3FA001FDA83 /* TFTableViewManager */,
+				F7300B7D1FA1D3B2001FDA83 /* Model */,
 				F7392AA01F5401CD007E86FA /* View */,
-				F7392A741F53FEA1007E86FA /* TFTableViewManager */,
 				F7392A5A1F53FB0B007E86FA /* ViewController */,
-				F7392A591F53FA3E007E86FA /* Model */,
 				F7392A581F53FA23007E86FA /* Tableview */,
 				F7392A281F53F922007E86FA /* AppDelegate.h */,
 				F7392A291F53F922007E86FA /* AppDelegate.m */,
 				F7392A2B1F53F922007E86FA /* ViewController.h */,
 				F7392A2C1F53F922007E86FA /* ViewController.m */,
 				F7392A2E1F53F922007E86FA /* Main.storyboard */,
-				F7392A311F53F922007E86FA /* Assets.xcassets */,
 				F7392A331F53F922007E86FA /* LaunchScreen.storyboard */,
 				F7392A361F53F922007E86FA /* Info.plist */,
+				F7300B9E1FA1D553001FDA83 /* Assets.xcassets */,
 				F7392A251F53F922007E86FA /* Supporting Files */,
 			);
 			name = ASDisplayKitLayoutSpecDemo;
@@ -255,15 +308,6 @@
 			path = Tableview;
 			sourceTree = "<group>";
 		};
-		F7392A591F53FA3E007E86FA /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				F7392A9D1F5401B6007E86FA /* Post.h */,
-				F7392A9E1F5401B6007E86FA /* Post.m */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		F7392A5A1F53FB0B007E86FA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,43 +328,6 @@
 				F7392A8C1F540151007E86FA /* ASStackLayoutSpecViewController.m */,
 			);
 			path = ViewController;
-			sourceTree = "<group>";
-		};
-		F7392A731F53FEA1007E86FA /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F7392A701F53FEA1007E86FA /* TFTableViewManager.xcconfig */,
-				F7392A711F53FEA1007E86FA /* TFTableViewManager-dummy.m */,
-				F7392A721F53FEA1007E86FA /* TFTableViewManager-prefix.pch */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/TFTableViewManager";
-			sourceTree = "<group>";
-		};
-		F7392A741F53FEA1007E86FA /* TFTableViewManager */ = {
-			isa = PBXGroup;
-			children = (
-				F7392A5F1F53FEA1007E86FA /* TFDefaultTableViewItem.h */,
-				F7392A601F53FEA1007E86FA /* TFDefaultTableViewItem.m */,
-				F7392A611F53FEA1007E86FA /* TFDefaultTableViewItemCell.h */,
-				F7392A621F53FEA1007E86FA /* TFDefaultTableViewItemCell.m */,
-				F7392A631F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.h */,
-				F7392A641F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m */,
-				F7392A651F53FEA1007E86FA /* TFTableViewItem.h */,
-				F7392A661F53FEA1007E86FA /* TFTableViewItem.m */,
-				F7392A671F53FEA1007E86FA /* TFTableViewItemCell.h */,
-				F7392A681F53FEA1007E86FA /* TFTableViewItemCell.m */,
-				F7392A691F53FEA1007E86FA /* TFTableViewItemCellNode.h */,
-				F7392A6A1F53FEA1007E86FA /* TFTableViewItemCellNode.m */,
-				F7392A6B1F53FEA1007E86FA /* TFTableViewManager.h */,
-				F7392A6C1F53FEA1007E86FA /* TFTableViewManager.m */,
-				F7392A6D1F53FEA1007E86FA /* TFTableViewManagerKit.h */,
-				F7392A6E1F53FEA1007E86FA /* TFTableViewSection.h */,
-				F7392A6F1F53FEA1007E86FA /* TFTableViewSection.m */,
-				F7392A731F53FEA1007E86FA /* Support Files */,
-			);
-			name = TFTableViewManager;
-			path = ../../../../TimeFace/TimeFaceDemoProject/Pods/TFTableViewManager;
 			sourceTree = "<group>";
 		};
 		F7392A7F1F53FF32007E86FA /* ViewModel */ = {
@@ -468,8 +475,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7392A351F53F922007E86FA /* LaunchScreen.storyboard in Resources */,
-				F7392A321F53F922007E86FA /* Assets.xcassets in Resources */,
-				F7392A7D1F53FEA1007E86FA /* TFTableViewManager.xcconfig in Resources */,
+				F7300B9F1FA1D553001FDA83 /* Assets.xcassets in Resources */,
 				F7392A301F53F922007E86FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -532,22 +538,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F7300B961FA1D411001FDA83 /* TFTableViewItemCellNode.m in Sources */,
+				F7300B971FA1D411001FDA83 /* TFDefaultTableViewItem.m in Sources */,
+				F7300B981FA1D411001FDA83 /* TFDefaultTableViewItemCell.m in Sources */,
+				F7300B991FA1D411001FDA83 /* TFDefaultTableViewItemCellNode.m in Sources */,
+				F7300B9A1FA1D411001FDA83 /* TFTableViewItem.m in Sources */,
+				F7300B9B1FA1D411001FDA83 /* TFTableViewManager.m in Sources */,
+				F7300B9C1FA1D411001FDA83 /* TFTableViewSection.m in Sources */,
+				F7300B9D1FA1D411001FDA83 /* TFTableViewItemCell.m in Sources */,
+				F7300B801FA1D3CC001FDA83 /* Post.m in Sources */,
 				F7392AC21F54021A007E86FA /* ASDemoRatioLayoutItem.m in Sources */,
-				F7392A7A1F53FEA1007E86FA /* TFTableViewItemCellNode.m in Sources */,
-				F7392A7E1F53FEA1007E86FA /* TFTableViewManager-dummy.m in Sources */,
 				F7392ADC1F540246007E86FA /* Demo2ItemCellNode.m in Sources */,
 				F7392AC61F54021A007E86FA /* Demo2Item.m in Sources */,
 				F7392A901F540151007E86FA /* ASRatioLayoutSpecViewController.m in Sources */,
-				F7392A7C1F53FEA1007E86FA /* TFTableViewSection.m in Sources */,
 				F7392AE91F540315007E86FA /* ASDemoLayoutItemCellNode.m in Sources */,
-				F7392A791F53FEA1007E86FA /* TFTableViewItemCell.m in Sources */,
-				F7392A781F53FEA1007E86FA /* TFTableViewItem.m in Sources */,
 				F7392A8D1F540151007E86FA /* ASBackgroundLayoutSpecViewController.m in Sources */,
 				F7392ABE1F54021A007E86FA /* ASDemoListItem.m in Sources */,
 				F7392AE21F540251007E86FA /* SocialAppItemCellNode.m in Sources */,
-				F7392A761F53FEA1007E86FA /* TFDefaultTableViewItemCell.m in Sources */,
 				F7392AC41F54021A007E86FA /* ASDemoStackLayoutItem.m in Sources */,
-				F7392A771F53FEA1007E86FA /* TFDefaultTableViewItemCellNode.m in Sources */,
 				F7392AD51F540236007E86FA /* ASDemoInsetLayoutItemCellNode.m in Sources */,
 				F7392AD91F540236007E86FA /* ASDemoStackLayoutItemCellNode.m in Sources */,
 				F7392AD61F540236007E86FA /* ASDemoOverlayLayoutItemCellNode.m in Sources */,
@@ -563,13 +571,10 @@
 				F7392A9B1F540173007E86FA /* Demo2ViewController.m in Sources */,
 				F7392ABF1F54021A007E86FA /* ASDemoBackgroundLayoutItem.m in Sources */,
 				F7392A5D1F53FB20007E86FA /* ASLayoutDemoListViewController.m in Sources */,
-				F7392A9F1F5401B6007E86FA /* Post.m in Sources */,
 				F7392AC71F54021A007E86FA /* SocialAppItem.m in Sources */,
-				F7392A7B1F53FEA1007E86FA /* TFTableViewManager.m in Sources */,
 				F7392AC31F54021A007E86FA /* ASDemoRelativeLayoutItem.m in Sources */,
 				F7392AD41F540236007E86FA /* ASDemoBackgroundLayoutItemCellNode.m in Sources */,
 				F7392A8F1F540151007E86FA /* ASOverlayLayoutSpecViewController.m in Sources */,
-				F7392A751F53FEA1007E86FA /* TFDefaultTableViewItem.m in Sources */,
 				F7392A921F540151007E86FA /* ASStackLayoutSpecViewController.m in Sources */,
 				F7392AA61F5401E7007E86FA /* LikesNode.m in Sources */,
 				F7392AC11F54021A007E86FA /* ASDemoOverlayLayoutItem.m in Sources */,
